@@ -1,0 +1,47 @@
+#container{
+  display: flex;
+  justify-content: center;
+}
+#row1 {
+  width: 30vh;
+  height: 30vh;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: .5s;
+}
+
+#row2 {
+  width: 30vh;
+  height: 30vh;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .7s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: .7s;
+}
+#row3 {
+  width: 30vh;
+  height: 30vh;
+  background-color: red;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .9s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: .9s;
+}
+.hover {
+  transition: all .2s ease-in-out;
+}
+.hover:hover {
+  transform: scale(1.02);
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
