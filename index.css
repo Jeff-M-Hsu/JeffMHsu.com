@@ -1,7 +1,5 @@
 p{
   padding-bottom: 3vh;
-  display: flex;
-  justify-content: flex-center;
 }
 @media (min-width: 768px){
   p{
