@@ -45,3 +45,40 @@
   from {transform: scale(0)}
   to {transform: scale(1)}
 }
+
+@media (max-width: 480px){
+  #row1, #row2, #row3{
+    width: 18vh;
+    height: 18vh;
+    margin: 3.5vh;
+  }
+}
+/* for iPhone X */
+@media (width: 375px) and (height: 812px){
+  #row1, #row2, #row3{
+    width: 13vh;
+    height: 13vh;
+    margin: 3.5vh;
+  }
+}
+/* for Pixel 2 XL */
+@media (width: 411px) and (height: 823px){
+  #row1, #row2, #row3{
+    width: 15vh;
+    height: 15vh;
+    margin: 3.5vh;
+  }
+}
+@media (max-width: 1024px){
+  #row1, #row2, #row3{
+    margin-left: 4.5vh;
+  }
+}
+@media (width: 1024px) and (height: 768px){
+  #row1, #row2, #row3{
+    width: 26vh;
+    height: 26vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+  }
+}

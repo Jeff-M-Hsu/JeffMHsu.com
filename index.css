@@ -1,0 +1,17 @@
+p{
+  padding-bottom: 3vh;
+  display: flex;
+  justify-content: flex-center;
+}
+@media (min-width: 768px){
+  p{
+    margin-left: 7vh;
+    margin-right: 7vh;
+  }
+}
+@media (min-width: 1200px){
+  p{
+    margin-left: 25vh;
+    margin-right: 25vh;
+  }
+}

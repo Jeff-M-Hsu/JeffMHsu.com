@@ -1,9 +1,11 @@
 h3{
   padding-bottom: 3vh;
+  display: flex;
+  justify-content: flex-start;
 }
 .deck{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 3vh;
 }
@@ -12,8 +14,7 @@ h3{
   border-width: 1px;
   border-color: #BBBBBB;
   width: 60vh;
-  height: 15vh;
-  padding-bottom: 1vh;
+  padding-bottom: 2vh;
 }
 .container{
   margin-left: 2vh;
@@ -25,15 +26,25 @@ h3{
   height: 3vh;
 }
 button{
-  width: 5vh;
-  height: 2.5vh;
   float: right;
   margin-right: 3vh;
   font-family: Arial;
   border-radius: 4px;
+  font-size: 1.5vh;
+  padding: .5vh 1.7vh;
 }
 button:hover{
   color: white;
   background-color: #444444;
   transition: all .1s ease-in-out;
+}
+@media (min-width: 768px){
+  h3{
+    margin-left: 7vh;
+  }
+}
+@media (min-width: 1200px){
+  h3{
+    margin-left: 25vh;
+  }
 }
