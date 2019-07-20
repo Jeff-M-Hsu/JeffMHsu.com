@@ -26,8 +26,8 @@ body{
   justify-content: flex-start;
 }
 #spacer{
-	padding: .5vh;
-	font-size: 2vh;
+  padding: .5vh;
+  font-size: 2vh;
 }
 #link{
   font-family: "TimeBurner", Arial;
