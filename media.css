@@ -1,31 +1,22 @@
 #container{
   display: flex;
   justify-content: center;
+  margin: auto;
 }
-#row1 {
-  width: 30vh;
-  height: 30vh;
+#row1, #row2, #row3 {
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
   animation-name: example;
+}
+#row1{
+  -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
   animation-duration: .5s;
 }
-
-#row2 {
-  width: 30vh;
-  height: 30vh;
-  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+#row2{
   -webkit-animation-duration: .7s; /* Safari 4.0 - 8.0 */
-  animation-name: example;
   animation-duration: .7s;
 }
-#row3 {
-  width: 30vh;
-  height: 30vh;
-  background-color: red;
-  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+#row3{
   -webkit-animation-duration: .9s; /* Safari 4.0 - 8.0 */
-  animation-name: example;
   animation-duration: .9s;
 }
 .hover {
@@ -47,38 +38,26 @@
 }
 
 @media (max-width: 480px){
-  #row1, #row2, #row3{
-    width: 18vh;
-    height: 18vh;
-    margin: 3.5vh;
+  #row1, #row2, #row3 {
+    width: 49%;
+    height: auto;
   }
 }
-/* for iPhone X */
-@media (width: 375px) and (height: 812px){
-  #row1, #row2, #row3{
-    width: 13vh;
-    height: 13vh;
-    margin: 3.5vh;
+@media (min-width: 481px) and (max-width: 1200px){
+  #container{
+    width: 80%;
+  }
+  #row1, #row2, #row3 {
+    width: 32.8%;
+    height: auto;
   }
 }
-/* for Pixel 2 XL */
-@media (width: 411px) and (height: 823px){
-  #row1, #row2, #row3{
-    width: 15vh;
-    height: 15vh;
-    margin: 3.5vh;
+@media (min-width: 1201px){
+  #container{
+    width: 70%;
   }
-}
-@media (max-width: 1024px){
-  #row1, #row2, #row3{
-    margin-left: 4.5vh;
-  }
-}
-@media (width: 1024px) and (height: 768px){
-  #row1, #row2, #row3{
-    width: 26vh;
-    height: 26vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
+  #row1, #row2, #row3 {
+    width: 24.7%;
+    height: auto;
   }
 }
