@@ -16,7 +16,7 @@ body{
 }
 #title{
   font-family: "Clemente", Arial;
-  font-size: 5vh;
+  font-size: 2.9em;
   text-decoration: none;
   color: black;
 }
@@ -27,20 +27,20 @@ body{
 }
 #spacer{
   padding: .5vh;
-  font-size: 2vh;
+  font-size: 1em;
 }
 #link{
   font-family: "TimeBurner", Arial;
   text-decoration: none;
   color: black;
-  font-size: 1.6vh;
+  font-size: .9em;
   margin-top: .8vh;
 }
 .icon{
   width: 2.6vh;
   height: 2.6vh;
 }
-#em{
+#email{
   width: 3.2vh;
 }
 #footer{
@@ -50,18 +50,9 @@ body{
   display: flex;
   justify-content: flex-start;
 }
-@media (max-width: 480px){
+
+@media (min-width: 481px){
   #topbar, #nav, #footer{
-    margin-left: 3.5vh;
-  }
-}
-@media (min-width: 768px){
-  #topbar, #nav, #footer{
-    margin-left: 7vh;
-  }
-}
-@media (min-width: 1200px){
-  #topbar, #nav, #footer{
-    margin-left: 25vh;
+    margin-left: 10%;
   }
 }

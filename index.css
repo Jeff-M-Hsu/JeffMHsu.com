@@ -1,15 +1,9 @@
 p{
   padding-bottom: 3vh;
 }
-@media (min-width: 768px){
+@media (min-width: 481px){
   p{
-    margin-left: 7vh;
-    margin-right: 7vh;
-  }
-}
-@media (min-width: 1200px){
-  p{
-    margin-left: 25vh;
-    margin-right: 25vh;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
