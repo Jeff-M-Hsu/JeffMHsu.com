@@ -4,8 +4,8 @@
   margin: auto;
 }
 #row1, #row2, #row3 {
-  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  animation-name: example;
+  -webkit-animation-name: spawn; /* Safari 4.0 - 8.0 */
+  animation-name: spawn;
   object-fit: cover;
 }
 #row1{
@@ -27,13 +27,13 @@
   transform: scale(1.02);
 }
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
+@-webkit-keyframes spawn {
   from {transform: scale(0)}
   to {transform: scale(1)}
 }
 
 /* Standard syntax */
-@keyframes example {
+@keyframes spawn {
   from {transform: scale(0)}
   to {transform: scale(1)}
 }

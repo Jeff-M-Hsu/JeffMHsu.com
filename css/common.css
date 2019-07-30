@@ -1,10 +1,10 @@
 @font-face{
   font-family: "Clemente";
-  src: url("./fonts/Clemente.ttf");
+  src: url("../fonts/Clemente.ttf");
 }
 @font-face{
   font-family: "TimeBurner";
-  src: url("./fonts/timeburnernormal.ttf");
+  src: url("../fonts/timeburnernormal.ttf");
 }
 body{
   margin-top: 3vh;
