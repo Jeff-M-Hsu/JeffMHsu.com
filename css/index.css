@@ -1,11 +1,5 @@
-p{
+span{
   padding-bottom: 1%;
   font-size: .9em;
-}
-@media (min-width: 481px){
-  #main{  
-    display: inline-block;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+  margin-left: 10%;
 }

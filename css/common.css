@@ -8,40 +8,45 @@
 }
 body{
   margin-top: 3vh;
-  background-color: #FEFEFE;
+  background-color: #FCFCFC;
+}
+h1, h2{
+	  font-family: Candara;
+  font-weight: 100;
+}
+.intro{
+  padding-top: 4vh;
+  width: 55%;
+}
+#resume{
+  color: black;
+  font-size: 1.4em;
+}
+.hover{
+	width: 100%;
+	height: auto;
+}
+#main{
+	margin-top: 10%;
 }
 #topbar{
-  height: 10%;
-  display: flex;
-  justify-content: flex-start;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #FCFCFC;
 }
 #title{
+  margin-top: 1%;
+  margin-left: 10%;
+  float: left;
+  display: block;
   font-family: "Clemente", Arial;
   font-size: 2.9em;
   text-decoration: none;
   color: black;
-  padding-bottom: 3%;
 }
-#nav{
-  padding-bottom: 3%;
-  display: flex;
-  justify-content: flex-start;
-}
-#link{
-  font-family: "TimeBurner", Arial;
-  text-decoration: none;
-  color: black;
-  font-size: .9em;
-  padding-right: .6vw;
-  padding-top: .6vh;
-  padding-bottom: .6vh;
-}
-.spaced-link{
-  border-left-style: groove;
-  border-width: .1em;
-  border-color: #DDDDDD;
-  padding-left: .6vw;
-}
+
 .icon{
   width: 1.2em;
   height: 1.2em;
@@ -51,7 +56,7 @@ body{
   width: 1.6em;
 }
 #footer{
-  padding-top: 8%;
+  padding-top: 5vh;
   bottom: 0;
   position: relative;
   display: flex;
@@ -59,7 +64,40 @@ body{
 }
 
 @media (min-width: 481px){
-  #topbar, #nav, #footer{
+#footer{
     margin-left: 10%;
   }
+}
+.row{
+	display: flex;
+	justify-content: center;
+}
+.row-space{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10vh;
+}
+.left-col{
+	width: 25%;
+	margin-left: 10%;
+}
+.right-col{
+	width: 80%;
+	margin-right: 20%;
+}
+.meta{
+	padding-bottom: .5vh;
+}
+#projectname{
+	text-align: center; 
+	width: 100%; 
+	margin-left: 0%; 
+	padding-bottom: 5vh;
+}
+#back-button{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	bottom: 0;
+	position: relative;
 }
