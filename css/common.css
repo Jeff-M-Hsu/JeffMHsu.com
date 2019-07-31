@@ -8,9 +8,10 @@
 }
 body{
   margin-top: 3vh;
+  background-color: #FEFEFE;
 }
 #topbar{
-  height: 10vh;
+  height: 10%;
   display: flex;
   justify-content: flex-start;
 }
@@ -19,32 +20,38 @@ body{
   font-size: 2.9em;
   text-decoration: none;
   color: black;
+  padding-bottom: 3%;
 }
 #nav{
-  padding-bottom: 5vh;
+  padding-bottom: 3%;
   display: flex;
   justify-content: flex-start;
-}
-#spacer{
-  padding: .5vh;
-  font-size: 1em;
 }
 #link{
   font-family: "TimeBurner", Arial;
   text-decoration: none;
   color: black;
   font-size: .9em;
-  margin-top: .8vh;
+  padding-right: .6vw;
+  padding-top: .6vh;
+  padding-bottom: .6vh;
+}
+.spaced-link{
+  border-left-style: groove;
+  border-width: .1em;
+  border-color: #DDDDDD;
+  padding-left: .6vw;
 }
 .icon{
-  width: 2.6vh;
-  height: 2.6vh;
+  width: 1.2em;
+  height: 1.2em;
+  padding-right: 2px;
 }
 #email{
-  width: 3.2vh;
+  width: 1.6em;
 }
 #footer{
-  padding-top: 10vh;
+  padding-top: 8%;
   bottom: 0;
   position: relative;
   display: flex;

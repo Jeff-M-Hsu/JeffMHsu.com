@@ -23,23 +23,10 @@ h3{
 .description{
   margin-right: 2vh;
   padding-bottom: 1vh;
-  height: 10vh;
+  height: auto;
 }
 p{
   font-size: .9em;
-}
-button{
-  float: right;
-  margin-right: 3vh;
-  font-family: Arial;
-  border-radius: 4px;
-  font-size: 1.5vh;
-  padding: .5vh 1.7vh;
-}
-button:hover{
-  color: white;
-  background-color: #444444;
-  transition: all .1s ease-in-out;
 }
 @media (max-width: 480px){
   .card{
