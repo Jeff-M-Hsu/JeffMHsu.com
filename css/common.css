@@ -7,7 +7,7 @@ body{
   background-color: #FCFCFC;
 }
 h1, h2{
-  font-family: Candara;
+  font-family: Candara, Helvetica, Arial;
   font-weight: 100;
 }
 #landing{
@@ -20,7 +20,7 @@ h1, h2{
   width: 80%;
 }
 #resume{
-  font-family: Candara;
+  font-family: Candara, Helvetica, Arial;
   font-weight: 100;
   color: black;
   font-size: 1.4em;
@@ -43,7 +43,7 @@ h1, h2{
   margin-top: 1%;
   margin-left: 10%;
   float: left;
-  font-family: "Clemente", Arial;
+  font-family: "Clemente", Candara, Helvetica, Arial;
   font-size: 2.9em;
   text-decoration: none;
   color: black;
